@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="identity" id="identity">
+        <div class="container">
+          <div class="evolution">
+            <h1>Evolution</h1>
+            <p>Level <span class="level">1</span></p>
+            <label for="xp">text</label>
+            <progress id="xp" value="1" max="100"></progress>
+            <div class="skills">
+                <ul class="skills__list">
+                    <li class="skills__list-item">HTML</li>
+                    <li class="skills__list-item">CSS</li>
+                </ul>
+            </div>
+          </div>
+          <div class="goal-progress">
+            <h1>Current quest</h1>
+            <p>Goal</p>
+            <label for="current-goal-progress"><span>n</span>%</label>
+            <progress id="current-goal-progress" value="10" max="100"></progress>
+            <ul class="goal__steps">
+                <li class="goal__steps-item">Complete JS</li>
+                <li class="goal__steps-item">Create my own project</li>
+                <li class="goal__steps-item">Create a resume</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="daily-actions" id="daily-actions">
+        <div class="container"></div>
+      </section>
+      <section class="vision" id="vision">
+        <div class="container"></div>
+      </section>
+    </main>
+  </body>
+</html>
