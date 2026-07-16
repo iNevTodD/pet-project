@@ -11,6 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
     <main>
@@ -20,32 +21,54 @@
             <h1>Evolution</h1>
             <p>Level <span class="level">1</span></p>
             <label for="xp">text</label>
-            <progress id="xp" value="1" max="100"></progress>
+            <progress class="level-progress" id="xp" value="1" max="100"></progress>
             <div class="skills">
-                <ul class="skills__list">
-                    <li class="skills__list-item">HTML</li>
-                    <li class="skills__list-item">CSS</li>
-                </ul>
+              <ul class="skills__list">
+                <li class="skills__list-item">HTML</li>
+                <li class="skills__list-item">CSS</li>
+              </ul>
             </div>
           </div>
           <div class="goal-progress">
             <h1>Current quest</h1>
             <p>Goal</p>
             <label for="current-goal-progress"><span>n</span>%</label>
-            <progress id="current-goal-progress" value="10" max="100"></progress>
+            <progress
+              id="current-goal-progress"
+              value="10"
+              max="100"
+            ></progress>
             <ul class="goal__steps">
-                <li class="goal__steps-item">Complete JS</li>
-                <li class="goal__steps-item">Create my own project</li>
-                <li class="goal__steps-item">Create a resume</li>
+              <li class="goal__steps-item">Complete JS</li>
+              <li class="goal__steps-item">Create my own project</li>
+              <li class="goal__steps-item">Create a resume</li>
             </ul>
           </div>
         </div>
       </section>
-      <section class="daily-actions" id="daily-actions">
-        <div class="container"></div>
+      <section class="daily__actions" id="daily__actions">
+        <div class="container">
+          <div class="daily__action-header">
+            <h1>TODAY'S FOCUS</h1>
+            <p>DATe</p>
+          </div>
+          <ul>
+            <li>ee</li>
+            <li>eee</li>
+            <li>qqq</li>
+            <li>gfcdx</li>
+          </ul>
+        </div>
       </section>
       <section class="vision" id="vision">
-        <div class="container"></div>
+        <div class="container">
+          <h1>My roadmap</h1>
+          <ul>
+            <li>Frontend</li>
+            <li>Backend</li>
+            <li>Money</li>
+          </ul>
+        </div>
       </section>
     </main>
   </body>
