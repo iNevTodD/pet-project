@@ -11,17 +11,26 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <main>
       <section class="identity" id="identity">
         <div class="container">
           <div class="evolution">
-            <h1>Evolution</h1>
-            <p>Level <span class="level">1</span></p>
-            <label for="xp">text</label>
-            <progress class="level-progress" id="xp" value="1" max="100"></progress>
+            <h2 class="evolution__title">Evolution</h2>
+            <p class="level-text">Level <span class="level">1</span></p>
+            <div class="evolution__progress">
+              <label class="evolution__progress-label" for="xp"
+                ><span>n</span>%</label
+              >
+              <progress
+                class="evolutioт-bar"
+                id="xp"
+                value="1"
+                max="100"
+              ></progress>
+            </div>
             <div class="skills">
               <ul class="skills__list">
                 <li class="skills__list-item">HTML</li>
@@ -29,15 +38,21 @@
               </ul>
             </div>
           </div>
-          <div class="goal-progress">
-            <h1>Current quest</h1>
-            <p>Goal</p>
-            <label for="current-goal-progress"><span>n</span>%</label>
-            <progress
-              id="current-goal-progress"
-              value="10"
-              max="100"
-            ></progress>
+          <div class="goal__progress">
+            <h2 class="goal__title">Current quest</h2>
+            <p class="goal__name">Goal</p>
+            <div class="goal__status">
+              <label class="goal__label" for="current-goal-progress">
+                <span class="goal__percent">10</span>%
+              </label>
+
+              <progress
+                class="goal__bar"
+                id="current-goal-progress"
+                value="10"
+                max="100"
+              ></progress>
+            </div>
             <ul class="goal__steps">
               <li class="goal__steps-item">Complete JS</li>
               <li class="goal__steps-item">Create my own project</li>
@@ -46,27 +61,29 @@
           </div>
         </div>
       </section>
-      <section class="daily__actions" id="daily__actions">
+      <section class="daily" id="daily">
         <div class="container">
-          <div class="daily__action-header">
-            <h1>TODAY'S FOCUS</h1>
-            <p>DATe</p>
+          <div class="daily__header">
+            <h2 class="daily__title">TODAY'S FOCUS</h2>
+            <p class="daily__date">DATE</p>
           </div>
-          <ul>
-            <li>ee</li>
-            <li>eee</li>
-            <li>qqq</li>
-            <li>gfcdx</li>
+
+          <ul class="daily__list">
+            <li class="daily__item">...</li>
+            <li class="daily__item">...</li>
+            <li class="daily__item">...</li>
+            <li class="daily__item">...</li>
           </ul>
         </div>
       </section>
       <section class="vision" id="vision">
         <div class="container">
-          <h1>My roadmap</h1>
-          <ul>
-            <li>Frontend</li>
-            <li>Backend</li>
-            <li>Money</li>
+          <h2 class="vision__title">My vision</h2>
+
+          <ul class="vision__list">
+            <li class="vision__item">Frontend</li>
+            <li class="vision__item">Backend</li>
+            <li class="vision__item">Money</li>
           </ul>
         </div>
       </section>

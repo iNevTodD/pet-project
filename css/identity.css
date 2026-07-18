@@ -1,20 +1,79 @@
-.identity .container{
-    display: flex;
-    justify-content: space-between;
+.identity{
     margin-bottom: 96px;
 }
 
-.evolution h1{
+.identity .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.evolution__title {
     font-size: 16px;
     margin-bottom: 12px;
 }
 
-.evolution p{
+.level-text {
     font-size: 38px;
     font-weight: 500;
     margin-bottom: 32px;
 }
 
-.level-progress{
-    
+.level {}
+
+.evolution__progress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.evolution__progress-label {}
+
+.evolution__bar {}
+
+.skills {}
+
+.skills__list {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills__list-item {}
+
+.goal__progress {}
+
+.goal__title {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.goal__name {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.goal__status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.goal__label {}
+
+.goal__percent {}
+
+.goal__bar {}
+
+.goal__steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 }
