@@ -1,7 +1,29 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
+:root {
+
+    /* Neutral */
+    --neutral-lightest: #E0E0E0;
+    --neutral-light: #C0C0B8;
+    --neutral: #A8A8A0;
+
+    /* Sage */
+    --sage-light: #9FA090;
+    --sage: #8F9080;
+
+    /* Moss */
+    --moss-light: #575848;
+    --moss-dark: #303028;
+
+    /* Clay */
+    --clay-light: #A8685F;
+    --clay: #886058;
+
+    /* Khaki */
+    --khaki-light: #888069;
+    --khaki: #787161;
+
+    /* Deep */
+    --deep: #201718;
+
 }
 
 body {
@@ -10,7 +32,7 @@ body {
     letter-spacing: 0.02em;
     font-size: 16px;
     padding: 25px;
-
+    background-color: #807070;
 }
 
 img {

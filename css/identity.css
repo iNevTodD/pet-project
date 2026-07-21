@@ -1,34 +1,58 @@
-.identity{
+.identity {
     margin-bottom: 96px;
 }
 
 .identity .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 50px;
+}
+
+.evolution {
+    padding: 15px 25px;
+    border-radius: 25px;
+    width: calc((100% - 50px)/ 2);
+
+    background-color: rgba(232, 225, 209, 0.12);
+    border: 1px solid rgba(232, 232, 224, .2);
 }
 
 .evolution__title {
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
     margin-bottom: 12px;
+    color: var(--deep);
+    opacity: 0.4;
 }
 
 .level-text {
-    font-size: 38px;
-    font-weight: 500;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.03em;
     margin-bottom: 32px;
+
+    color: #E8E1D1;
 }
 
 .level {}
 
 .evolution__progress {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
     margin-bottom: 25px;
 }
 
-.evolution__progress-label {}
+.evolution__progress-label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #C6AD8F;
+}
 
 .evolution__bar {}
 
@@ -37,34 +61,58 @@
 .skills__list {
     display: flex;
     gap: 10px;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
-.skills__list-item {}
+.skills__list-item {
+    font-size: 14px;
+    font-weight: 500;
+    color: #B8AFB0;
+}
 
-.goal__progress {}
+.goal__progress {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(232, 225, 209, 0.12);
+    padding: 15px 25px;
+    border: 1px solid rgba(232, 232, 224, .2);
+    border-radius: 25px;
+    width: calc((100% - 50px)/ 2);
+}
 
 .goal__title {
-    font-size: 16px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .08em;
+    text-transform: uppercase;
     margin-bottom: 12px;
+    color: var(--deep);
+    opacity: 0.7;
+
 }
 
 .goal__name {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 500;
     margin-bottom: 12px;
+    color: #F0ECE8;
 }
 
 .goal__status {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 8px;
     margin-bottom: 8px;
 }
 
-.goal__label {}
+.goal__label {
+    color: #C6AD8F;
+
+}
 
 .goal__percent {}
 
@@ -76,4 +124,10 @@
     justify-content: center;
     align-items: center;
     gap: 8px;
+
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    color: #D0D0C8;
+
 }
